@@ -3,7 +3,7 @@ import LoginContainer from "../components/LoginContainer"
 import { useState } from "react"
 
 export default function MainPage(){
-    const [isAuthorized, setIsAuthorized] = useState(false)
+    const [isAuthorized, setIsAuthorized] = useState(false) 
 
     const handleAuth = (value) => {
         setIsAuthorized(value)

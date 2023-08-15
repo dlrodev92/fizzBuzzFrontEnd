@@ -43,7 +43,7 @@ export default function LoginContainer({handleAuth}){
                         alert(data2.error);
                     } else {
                         alert('Login successful');
-                        handleAuth(data2.authorized);
+                        handleAuth(data2.authorized);// this is the function that will be passed down from the Main component with the backend response as the argument (boolean).
                     }
                 } catch (error) {
                     alert('An error occurred while validating login.');
