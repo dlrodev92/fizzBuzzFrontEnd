@@ -6,8 +6,8 @@ export default function FizzBuzzContainer(){
                 <button className="text-lg font-bold w-[150px] h-[40px] bg-blue-300 rounded-lg mt-10 hover:bg-slate-50 hover:scale-105 hover:border-2 hover:border-blue-300 ">
                     Get FizzBuzz
                 </button>
-                <ul className="w-[90%] h-[80%] rounded-xl bg-slate-500">
-
+                <ul className="w-[90%] h-[80%] rounded-xl bg-slate-500 mb-3 grid grid-cols-4 grid-flow-row gap-2 p-2 overflow-y-scroll">
+                   
                 </ul>
 
             </div>
