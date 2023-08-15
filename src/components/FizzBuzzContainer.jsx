@@ -58,7 +58,7 @@ export default function FizzBuzzContainer({isAuthorized}){
                  >
                     {isFizzBuzzList ? "Close" : "Get FizzBuzz"}
                 </button>
-                <ul className="w-[90%] h-[80%] rounded-xl bg-slate-50 mb-3 grid grid-cols-4 grid-flow-row gap-2 p-2 overflow-y-scroll">
+                <ul className="w-[90%] h-[80%] rounded-xl bg-slate-50 mb-3 grid grid-cols-2 md:grid-cols-3 grid-flow-row gap-2 p-2 overflow-y-scroll">
                     {isFizzBuzzList ? fizzBuzzList : null}
                 </ul>
 
